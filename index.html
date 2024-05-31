@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <title>Portfolio | Vaigai Vendhan</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- --------------- HEADER --------------- -->
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Vaigai Vendhan</p>
+                <span>.</span>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Works</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <button class="btn" onclick="window.location.href='https://drive.google.com/file/d/1tLaKT0ptIoXl0KZwnyVaBeNQS8TX0Gkt/view?usp=drive_link'">Download CV <i class="uil uil-file-alt"></i></button>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+
+
+        <!-- -------------- MAIN ---------------- -->
+        <main class="wrapper">
+            <!-- -------------- FEATURED BOX ---------------- -->
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="featured-text-card">
+                        <span>Vaigai Vendhan</span>
+                    </div>
+                    <div class="featured-name">
+                        <p>I'm <span class="typedText"></span></p>
+                    </div>
+                    <div class="featured-text-info">
+                        <p>Experienced video editor, graphics designer, and social media handler.</p>
+                    </div>
+                    <div class="featured-text-btn">
+                        <button class="btn blue-btn" onclick="scrollToContact()">Hire Me</button>
+                        <button class="btn" onclick="window.location.href='https://drive.google.com/file/d/1tLaKT0ptIoXl0KZwnyVaBeNQS8TX0Gkt/view?usp=drive_link'">Download CV <i class="uil uil-file-alt"></i></button>
+                    </div>
+                    <div class="social_icons">
+                        <div class="icon"><a href="https://www.instagram.com/kv_creationsofficial_"><i
+                                    class="uil uil-instagram"></i></a></div>
+                        <div class="icon"><a href="http://linkedin.com/in/vaigai-vendhan-9b142b258"><i
+                                    class="uil uil-linkedin-alt"></i></a></div>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="assests/logos-circle.png" alt="Vaigai Vendhan">
+                    </div>
+                </div>
+                <div class="scroll-icon-box">
+                    <a href="#about" class="scroll-btn">
+                        <i class="uil uil-mouse-alt"></i>
+                        <p>Scroll Down</p>
+                    </a>
+                </div>
+
+            </section>
+            <!-- -------------- ABOUT BOX ---------------- -->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About Me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <h3>My introduction</h3>
+                            <p>I am a video editor, graphics designer, and social media handler with a strong passion
+                                for creating engaging content.</p>
+                            <div class="about-btn">
+                                <button class="btn" onclick="window.location.href='https://drive.google.com/file/d/1tLaKT0ptIoXl0KZwnyVaBeNQS8TX0Gkt/view?usp=drive_link'">Download CV <i class="uil uil-import"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Skills</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>Premiere Pro</span>
+                                <span>After Effects</span>
+                                <span>Photoshop</span>
+                                <span>CapCut PC</span>
+                                <span>Social Media Handling</span>
+                                <span>Graphics Design</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- -------------- PROJECT BOX ---------------- -->
+
+            <!-- -------------- PROJECT BOX ---------------- -->
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Works</h1>
+                </div>
+                <div class="project-container">
+                    <div class="project-box" onclick="window.location.href='https://drive.google.com/drive/folders/1BFg_TX8P-Qmpmi5azOJ2gn1OmktZx28t'">
+                        <i class="uil uil-video"></i> <!-- Icon for Long Form Content -->
+                        <h3>Long Form Content</h3>
+                        <p>I specialize in editing long-form videos for YouTube, ensuring engaging storytelling and seamless visual transitions.</p>
+                    </div>
+                    <div class="project-box" onclick="window.location.href='https://drive.google.com/drive/folders/1Ukn4EKC2yWc9YmAu3YQA-nmIcuODYhGt?usp=drive_link'">
+                        <i class="uil uil-film"></i> <!-- Icon for Short Form Content -->
+                        <h3>Short Form Content</h3>
+                        <p>I create captivating shorts and reels, leveraging my expertise in visual storytelling to engage and inspire audiences.</p>
+                    </div>
+                    <div class="project-box" onclick="window.location.href='https://drive.google.com/drive/folders/1Dj1pZqzOdwdGDEw-kDPfy-9hzgIpt5W5?usp=drive_link'">
+                        <i class="uil uil-music"></i> <!-- Icon for Mashups -->
+                        <h3>Mashups</h3>
+                        <p>I'm experienced in creating cinematic mashups, combining visuals and audio to produce captivating content.</p>
+                    </div>
+                </div>
+            </section>
+            
+            
+
+
+            <!-- -------------- CONTACT BOX ---------------- -->
+
+            <!-- -------------- CONTACT BOX ---------------- -->
+<section class="section" id="contact">
+    <div class="top-header">
+        <h1>Get in touch</h1>
+        <span>Do you have a project in mind? Contact me here.</span>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="contact-info">
+                <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                <p><i class="uil uil-envelope"></i> Email: vaigaivendhan138@gmail.com</p>
+                <p><i class="uil uil-phone"></i> Tel: +91 7604895101</p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="form-control">
+                <div class="form-inputs">
+                    <input type="text" id="name" class="input-field" placeholder="Name" required>
+                    <input type="email" id="email" class="input-field" placeholder="Email" required>
+                </div>
+                <div class="text-area">
+                    <textarea id="message" placeholder="Message"></textarea>
+                </div>
+                <div class="form-button">
+                    <button class="btn" onclick="sendEmail()">Send <i class="uil uil-message"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- -------------- SWITCH BUTTON ---------------- -->
+<div class="switch-profile">
+    <label class="switch">
+        <input type="checkbox" id="profileSwitch">
+        <span class="slider round"></span>
+    </label>
+    <span>Web Developer</span>
+</div>
+
+
+
+        <!-- --------------- FOOTER --------------- -->
+        <footer>
+            <div class="top-footer">
+                <p>Vaigai Vendhan</p>
+            </div>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <div class="icon"><a href="https://www.instagram.com/kv_creationsofficial_"><i
+                            class="uil uil-instagram"></i></a></div>
+                <div class="icon"><a href="http://linkedin.com/in/vaigai-vendhan-9b142b258"><i
+                            class="uil uil-linkedin-alt"></i></a></div>
+            </div>
+            <div class="bottom-footer">
+                <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Vaigai Vendhan</a> - All rights
+                    reserved</p>
+            </div>
+        </footer>
+
+    </div>
+
+
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="main.js"></script>
+</body>
+
+</html>
