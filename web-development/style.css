@@ -368,6 +368,7 @@ h3{
     justify-content: space-between;
     gap: 20px;
     flex-wrap: wrap;
+    align-items: center ;
 }
 .project-box{
     position: relative;
@@ -376,7 +377,7 @@ h3{
     align-items: center;
     flex-direction: column;
     width: 30%;
-    height: 250px;
+    height: 300px;
     background: var(--color-white);
     border-radius: 20px;
     box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
@@ -405,7 +406,35 @@ h3{
 .project-box:hover.project-box::after,
 .contact-info:hover.contact-info::after{
     bottom: 0;
+    z-index: 1;
 }
+
+.project-btn{
+    z-index: 2;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+
+.project-box-btn{
+    background-color:#2196F3;
+    border: none;
+    padding-left:  20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    color: white;
+}
+.project-box-btn:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    transition: .5s all ease-in-out;
+}
+
+
+
+
 .project-box:hover.project-box i,
 .project-box:hover.project-box>h3,
 .project-box:hover.project-box>label{
