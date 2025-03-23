@@ -2,7 +2,8 @@ import React, { useEffect, useRef } from "react";
 import Typed from "typed.js";
 import { motion } from "framer-motion";
 import { FaInstagram, FaLinkedin, FaGithub, FaEnvelope, FaCode } from "react-icons/fa";
-import profileImage from "../images/logos-circle.png"
+import profileImage from "/logos-circle.png";
+
 const Home = () => {
   const el = useRef(null);
 
