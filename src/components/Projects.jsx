@@ -1,9 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
-import proj1 from "/proj1.png";
-import proj2 from "/proj2.png";
-import proj3 from "/proj3.png";
-import proj4 from "/proj4.png";
+import proj1 from "../images/proj1.png"
+import proj2 from "../images/proj2.png"
+import proj3 from "../images/proj3.png"
+import proj4 from "../images/proj4.png"
 
 const projects = [
   {
